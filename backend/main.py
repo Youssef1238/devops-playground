@@ -6,3 +6,5 @@ app = FastAPI()
 def entry():
     return {"Hello": "Optimized", "Version": "1.0.0"}
 
+import os
+x= 5
