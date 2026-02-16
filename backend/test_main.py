@@ -9,4 +9,3 @@ def test_read_main():
     res = client.get('/')
     assert res.status_code == 200
     assert res.json() == {"Hello": "Optimized", "Version": "1.0.0"}
-
